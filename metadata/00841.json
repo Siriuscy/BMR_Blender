@@ -1,0 +1,269 @@
+{
+  "code": "00841",
+  "time": "Tue Mar  1 18:24:45 2022",
+  "chosen objects": [
+    "background_01",
+    "basebody",
+    "maxplanc_quantum",
+    "womenDress",
+    "tesla_coil"
+  ],
+  "background_01": {
+    "material_name": "background",
+    "material_metadata": {
+      "utils_change_colorramp": {
+        "colorRamp_value_ls": [
+          [
+            0.65,
+            0.21384999999999998,
+            0.580216,
+            1
+          ],
+          [
+            0.65,
+            0.20929999999999999,
+            0.49222939999999976,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "body": {
+    "material_name": "skin",
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "SubsurfaceColor": [
+          1.0,
+          0.397,
+          0.397,
+          1
+        ]
+      }
+    }
+  },
+  "cover": {
+    "material_name": "glassTransparent",
+    "material_metadata": null
+  },
+  "eyes": {
+    "material_name": "faceEyes",
+    "material_metadata": null
+  },
+  "facecheek": {
+    "material_name": "faceMouse",
+    "material_metadata": null
+  },
+  "mouse": {
+    "material_name": "faceMouse",
+    "material_metadata": null
+  },
+  "face.001": {
+    "material_name": "skin",
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "SubsurfaceColor": [
+          1.0,
+          0.358,
+          0.358,
+          1
+        ]
+      }
+    }
+  },
+  "basebody": {},
+  "maxplanc_quantum": {
+    "material_name": "emissionWeight",
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          0.6209,
+          1.0,
+          0.15000000000000002,
+          1
+        ],
+        "Strength": 25.763
+      }
+    }
+  },
+  "womenDress": {
+    "material_name": "paint",
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.751,
+          0.676006642,
+          0.32968899999999995,
+          1
+        ],
+        "Specular": 0.12,
+        "Roughness": 0.511
+      }
+    }
+  },
+  "Cylinder.005": {
+    "material_name": "metalRoughness",
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.8648636400000002,
+          0.46618200000000004,
+          0.873,
+          1
+        ]
+      }
+    }
+  },
+  "eletril": {
+    "material_name": "emissionBase",
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          1.0,
+          0.24165999999999999,
+          0.010000000000000009,
+          1
+        ],
+        "Strength": 48.481
+      }
+    }
+  },
+  "Polygon_ab.001": {
+    "material_name": "metalRefraction",
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.315468,
+          0.4010169600000001,
+          0.621,
+          1
+        ]
+      }
+    }
+  },
+  "Polygon_ab.002": {
+    "material_name": "metalRefraction",
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.469853,
+          0.609166658,
+          0.641,
+          1
+        ]
+      }
+    }
+  },
+  "Sphere": {
+    "material_name": "metalRefraction",
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.655,
+          0.5658152,
+          0.41396,
+          1
+        ]
+      }
+    }
+  },
+  "Torus": {
+    "material_name": "metalRoughness",
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.30479038799999986,
+          0.191201,
+          0.727,
+          1
+        ]
+      }
+    }
+  },
+  "tesla_coil": {
+    "material_name": "metalRoughness",
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.212699,
+          0.902233552,
+          0.937,
+          1
+        ]
+      }
+    }
+  },
+  "metaball_metadata": {
+    "conf": {
+      "mat_setting": {
+        "name": "particles_BSDF",
+        "type": "RANDOM",
+        "values": [
+          [
+            "(1",
+            0.8,
+            0.1,
+            "1)",
+            "(0.2",
+            0.8,
+            0.1,
+            "1)",
+            "(0.5",
+            0.8,
+            0.1,
+            "1)"
+          ]
+        ],
+        "senta_constant": 0.1
+      },
+      "loft_radius": 0.01,
+      "render_resolution": 0.025,
+      "metaball_type": "BALL",
+      "emitter_scale": 1,
+      "count": 40,
+      "lifetime": 50,
+      "lifetime_random": 0.6,
+      "damping": 0.5,
+      "particle_size": 0.25,
+      "size_random": 0.7,
+      "normal_factor": 0.9,
+      "init_speed": 0.5,
+      "metaball_num_mean": 2.5,
+      "metaball_num_scale": 1,
+      "ball_scale_mean": 0.34,
+      "ball_scale_scale": 0.02,
+      "curve_scale_mean": 1.1,
+      "curve_scale_scale": 0.25,
+      "one_ronund_frame_low": 50,
+      "one_ronund_frame_high": 160
+    },
+    "metadata": {
+      "0": {
+        "ball_scale": [
+          0.33,
+          0.33,
+          0.33
+        ],
+        "curve_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "one_round_frames": 127
+      },
+      "1": {
+        "ball_scale": [
+          0.33,
+          0.33,
+          0.33
+        ],
+        "curve_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "one_round_frames": 74
+      }
+    }
+  }
+}

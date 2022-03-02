@@ -1,0 +1,35 @@
+mat_setting:   # 材质设置
+  name: 'particles_BSDF' # 默认渐变色为3色渐变
+  type: "RANDOM" 
+  # RANDOM:随机渐变材质，使用blender 的“name”材质；
+  # VALUES:使用以下的valuses材质，若metaball数量大于values，则多余的默认选择第一个;
+  # SENTA:使用文本情感得分，映射至H值，当使用SENTA时，会读取配置文件例如融球数量等，映射情感得分。
+  values: [[(1,0.8,0.1,1),(0.2,0.8,0.1,1),(0.5,0.8,0.1,1)]] # 三个元素HSVA格式
+  senta_constant: 0.1
+
+
+
+loft_radius: 0.01 # 放样半径
+render_resolution: 0.025  # 渲染分辨率
+metaball_type: "BALL" # 粒子类型 ["CAPSULE","BALL","PLANE","ELLIPSOLD","CUBE"]
+
+emitter_scale: 1 # 粒子大小比例（与融球相比）
+count: 40 # 粒子数量
+lifetime: 50 # 粒子生命周期
+lifetime_random: 0.6 # 粒子生命周期随机
+damping: 0.5 # 粒子阻尼
+particle_size: 0.25 # 粒子与融球的比例大小
+size_random: 0.7 # 粒子大小随机值
+normal_factor: 0.9 # 粒子法向速度
+init_speed: 0.5 # 粒子初始速度
+
+metaball_num_mean: 2.5 # 融球数量均值
+metaball_num_scale: 1 # 融球数量标准差
+
+ball_scale_mean: 0.34 # 融球大小均值
+ball_scale_scale: 0.02 # 融球大小标准差
+
+curve_scale_mean: 1.1 # 曲线大小均值
+curve_scale_scale: 0.25 # 曲线大小标准差
+one_ronund_frame_low: 50 # 一圈的时间最快帧数
+one_ronund_frame_high: 160 # 一圈的时间最慢帧数

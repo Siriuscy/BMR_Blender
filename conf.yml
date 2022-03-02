@@ -1,34 +1,50 @@
+dir_path: '/Users/chenyu/Desktop/BMR_final/python_file'
+multi_mat_obj_filePath: '../multi_mat_obj_v12_0301.json'
+done_bmr_filePath: '../done_bmr.yml'
+texture_path: '../textures'
+pic_save_path: '../results'
+metadata_path: '../metadata'
+done_codes_path: '../done_codes.json'
 # 排列组合的设置：
 
 exception_collection:
-# 不可动的对象
-  - light
+# 不可动的对象:目标文件夹将不介入generate codes 的过程中 
   - camera
+  - curves_metaballs
+  - light
+  
+  
 
 must_selected_at_lesat_one:
 # 至少需要选择一个
-  - Emoji
+  - clothesSuit
+
 
 all_must_selected:
 # 必须都选择，但是材质可选
-  - base
+  # - base
   - base_model
-
-
+  - light 
+  - background
+  - base
 
 # 输出结果设置：
+# PICTURE,VIDEO
+output_mode: PICTURE
 
 video_setting:
 # 输出的视频设置，time_scale的单位是秒
-  time_scale: 1
+  time_scale: 5
   rotation: 360
   # render.image_settings.file_format default available image_format options are 
   # BMP IRIS PNG JPEG TARGA TARGA_RAW OPEN_EXR_MULTILAYER OPEN_EXR AVI_JPEG AVI_RAW -
   #  depending on the build settings others may be available, like CINEON DPX TIFF or FFMPEG
-  output_setting: FFMPEG
+  format: FFMPEG
 
 static_collection:
 # video中不可旋转的物体
   - light
   - camera
-  - base
+  - background
+  - curves_metaballs
+  - particles_collections

@@ -1,0 +1,504 @@
+{
+  "Cone.001": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.6835261679999998,
+          0.430326,
+          0.702,
+          1
+        ],
+        "Specular": 0.771
+      }
+    },
+    "material_name": "glossy"
+  },
+  "Cone.002": {
+    "material_metadata": {
+      "utils_change_GlossyBSDF": {
+        "Roughness": 0.824
+      },
+      "utils_change_PrincipledBSDF": {
+        "Roughness": 0.451,
+        "Specular": 0.531,
+        "SubsurfaceColor": [
+          1.0,
+          0.96728,
+          0.18200000000000005,
+          1
+        ]
+      },
+      "utils_change_noiseTexture": {
+        "Roughness": 0.244,
+        "Scale": 1.274
+      }
+    },
+    "material_name": "colorfulHue"
+  },
+  "Cube.017": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.267424,
+          0.32746726400000004,
+          0.548,
+          1
+        ],
+        "Roughness": 0.89,
+        "Specular": 0.312
+      }
+    },
+    "material_name": "paint"
+  },
+  "Cube.101": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.905,
+          0.5909650000000001,
+          0.7059018100000002,
+          1
+        ],
+        "Specular": 0.416
+      }
+    },
+    "material_name": "glossy"
+  },
+  "Curve.007": {
+    "material_metadata": null,
+    "material_name": "faceEyes"
+  },
+  "Cylinder.008": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.4068500680000001,
+          0.23116599999999998,
+          0.523,
+          1
+        ],
+        "Specular": 0.88
+      }
+    },
+    "material_name": "glossy"
+  },
+  "NurbsPath.026": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.35425000000000006,
+          0.545,
+          0.428261,
+          1
+        ],
+        "Specular": 0.87
+      }
+    },
+    "material_name": "glossy"
+  },
+  "Plane.023": {
+    "material_metadata": {
+      "utils_change_GlossyBSDF": {
+        "Roughness": 0.876
+      },
+      "utils_change_PrincipledBSDF": {
+        "Roughness": 0.451,
+        "Specular": 0.995,
+        "SubsurfaceColor": [
+          0.41239999999999966,
+          0.09599999999999997,
+          1.0,
+          1
+        ]
+      },
+      "utils_change_noiseTexture": {
+        "Roughness": 0.135,
+        "Scale": 1.074
+      }
+    },
+    "material_name": "colorfulHue"
+  },
+  "Plane.024": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.20952,
+          0.6400448,
+          0.776,
+          1
+        ],
+        "Specular": 0.673
+      }
+    },
+    "material_name": "glossy"
+  },
+  "Plane.026": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.49264782400000007,
+          0.554,
+          0.31245600000000007,
+          1
+        ],
+        "Specular": 0.816
+      }
+    },
+    "material_name": "glossy"
+  },
+  "Sphere.005": [
+    {
+      "material_metadata": {
+        "utils_change_PrincipledBSDF": {
+          "BaseColor": [
+            0.42902042,
+            0.33730999999999994,
+            0.758,
+            1
+          ],
+          "Specular": 0.997
+        }
+      },
+      "material_name": "glossy"
+    },
+    {
+      "material_metadata": {
+        "utils_change_PrincipledBSDF": {
+          "BaseColor": [
+            0.578,
+            0.25173056,
+            0.16184,
+            1
+          ],
+          "Roughness": 0.744,
+          "Specular": 0.506
+        }
+      },
+      "material_name": "paint"
+    }
+  ],
+  "Sphere.052": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.621,
+          0.43245819,
+          0.42662700000000003,
+          1
+        ],
+        "Specular": 0.798
+      }
+    },
+    "material_name": "glossy"
+  },
+  "T-shirt_03.003": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.74,
+          0.30710000000000004,
+          0.5304764000000001,
+          1
+        ],
+        "Roughness": 0.238,
+        "Specular": 0.002
+      }
+    },
+    "material_name": "paint"
+  },
+  "Torus.008": {
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          0.010000000000000009,
+          0.1565200000000001,
+          1.0,
+          1
+        ],
+        "Strength": 6.515
+      }
+    },
+    "material_name": "emissionBase"
+  },
+  "angle": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.5230058299999999,
+          0.995,
+          0.478595,
+          1
+        ],
+        "Roughness": 0.441,
+        "Specular": 0.742
+      }
+    },
+    "material_name": "paint"
+  },
+  "background_01": {
+    "material_metadata": {
+      "utils_change_colorramp": {
+        "colorRamp_value_ls": [
+          [
+            0.65,
+            0.26975000000000005,
+            0.5275595,
+            1
+          ],
+          [
+            0.21905,
+            0.5284720999999998,
+            0.65,
+            1
+          ]
+        ]
+      }
+    },
+    "material_name": "background"
+  },
+  "basebody": {},
+  "body": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "SubsurfaceColor": [
+          1.0,
+          0.398,
+          0.398,
+          1
+        ]
+      }
+    },
+    "material_name": "skin"
+  },
+  "chosen objects": [
+    "background_01",
+    "basebody",
+    "freud_ego",
+    "T-shirt_03.003",
+    "freud_dreams",
+    "newton_binoculars",
+    "rachelCarson_slientspring"
+  ],
+  "code": "001535525",
+  "cover": {
+    "material_metadata": null,
+    "material_name": "glassTransparent"
+  },
+  "evils": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.578,
+          0.165886,
+          0.3760641399999999,
+          1
+        ],
+        "Roughness": 0.003,
+        "Specular": 0.781
+      }
+    },
+    "material_name": "paint"
+  },
+  "eyes": {
+    "material_metadata": null,
+    "material_name": "faceEyes"
+  },
+  "face.001": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "SubsurfaceColor": [
+          1.0,
+          0.374,
+          0.374,
+          1
+        ]
+      }
+    },
+    "material_name": "skin"
+  },
+  "facecheek": {
+    "material_metadata": null,
+    "material_name": "faceMouse"
+  },
+  "freud_dreams": {
+    "material_metadata": null,
+    "material_name": "faceEyes"
+  },
+  "freud_ego": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.35441008,
+          0.272976,
+          0.752,
+          1
+        ],
+        "Specular": 0.937
+      }
+    },
+    "material_name": "glossy"
+  },
+  "metaball_metadata": {
+    "conf": {
+      "ball_scale_mean": 0.34,
+      "ball_scale_scale": 0.02,
+      "count": 40,
+      "curve_scale_mean": 1.1,
+      "curve_scale_scale": 0.25,
+      "damping": 0.5,
+      "emitter_scale": 1,
+      "init_speed": 0.5,
+      "lifetime": 50,
+      "lifetime_random": 0.6,
+      "loft_radius": 0.01,
+      "mat_setting": {
+        "name": "particles_BSDF",
+        "senta_constant": 0.1,
+        "type": "RANDOM",
+        "values": [
+          [
+            "(1",
+            0.8,
+            0.1,
+            "1)",
+            "(0.2",
+            0.8,
+            0.1,
+            "1)",
+            "(0.5",
+            0.8,
+            0.1,
+            "1)"
+          ]
+        ]
+      },
+      "metaball_num_mean": 2.5,
+      "metaball_num_scale": 1,
+      "metaball_type": "BALL",
+      "normal_factor": 0.9,
+      "one_ronund_frame_high": 160,
+      "one_ronund_frame_low": 50,
+      "particle_size": 0.25,
+      "render_resolution": 0.025,
+      "size_random": 0.7
+    },
+    "metadata": {
+      "0": {
+        "ball_scale": [
+          0.36,
+          0.36,
+          0.36
+        ],
+        "curve_scale": [
+          1.21,
+          1.21,
+          1.21
+        ],
+        "one_round_frames": 117
+      }
+    }
+  },
+  "mouse": {
+    "material_metadata": null,
+    "material_name": "faceMouse"
+  },
+  "newton_binoculars": [
+    {
+      "material_metadata": {
+        "utils_change_PrincipledBSDF": {
+          "BaseColor": [
+            0.492,
+            0.984,
+            0.6592800000000001,
+            1
+          ],
+          "Roughness": 0.364,
+          "Specular": 0.365
+        }
+      },
+      "material_name": "paint"
+    },
+    {
+      "material_metadata": {
+        "utils_change_PrincipledBSDF": {
+          "BaseColor": [
+            0.544,
+            0.33674688,
+            0.3100800000000001,
+            1
+          ],
+          "Specular": 0.382
+        }
+      },
+      "material_name": "glossy"
+    },
+    {
+      "material_metadata": {
+        "utils_change_colorramp": {
+          "colorRamp_value_ls": [
+            [
+              0.940576,
+              0.988,
+              0.961821952,
+              1
+            ],
+            [
+              0.285382,
+              0.487,
+              0.454337884,
+              1
+            ],
+            [
+              0.07370699999999997,
+              0.18541508999999987,
+              0.933,
+              1
+            ]
+          ]
+        },
+        "utils_change_layerWeight": {
+          "LayerWeight_value": 0.583
+        }
+      },
+      "material_name": "crystal"
+    }
+  ],
+  "rachelCarson_slientspring": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.41813199999999995,
+          0.455077216,
+          0.748,
+          1
+        ],
+        "Roughness": 0.617,
+        "Specular": 0.96
+      }
+    },
+    "material_name": "paint"
+  },
+  "time": "Tue Mar  1 17:55:47 2022",
+  "yunduo": {
+    "material_metadata": {
+      "utils_change_GlossyBSDF": {
+        "Roughness": 0.468
+      },
+      "utils_change_PrincipledBSDF": {
+        "Roughness": 0.539,
+        "Specular": 0.572,
+        "SubsurfaceColor": [
+          1.0,
+          0.681698,
+          0.04700000000000004,
+          1
+        ]
+      },
+      "utils_change_noiseTexture": {
+        "Roughness": 0.111,
+        "Scale": 1.736
+      }
+    },
+    "material_name": "colorfulHue"
+  }
+}

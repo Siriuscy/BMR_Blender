@@ -1,0 +1,520 @@
+{
+  "Cube.072": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.704,
+          0.52519808,
+          0.178112,
+          1
+        ]
+      }
+    },
+    "material_name": "glossyValue"
+  },
+  "Cube.073": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.888,
+          0.641006352,
+          0.428904,
+          1
+        ]
+      }
+    },
+    "material_name": "glossyValue"
+  },
+  "Cube.075": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.730924792,
+          0.884,
+          0.4747079999999999,
+          1
+        ]
+      }
+    },
+    "material_name": "glossyValue"
+  },
+  "Cube.076": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.9459744320000001,
+          0.988,
+          0.583908,
+          1
+        ]
+      }
+    },
+    "material_name": "glossyValue"
+  },
+  "Cube.077": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.44017459200000003,
+          0.668,
+          0.277888,
+          1
+        ]
+      }
+    },
+    "material_name": "glossyValue"
+  },
+  "Plane.022": {
+    "material_metadata": {
+      "utils_change_GlossyBSDF": {
+        "Roughness": 0.298
+      },
+      "utils_change_PrincipledBSDF": {
+        "Roughness": 0.997,
+        "Specular": 0.583,
+        "SubsurfaceColor": [
+          1.0,
+          0.45576399999999995,
+          0.20199999999999996,
+          1
+        ]
+      },
+      "utils_change_noiseTexture": {
+        "Roughness": 0.05,
+        "Scale": 1.941
+      }
+    },
+    "material_name": "colorfulHue"
+  },
+  "Rutherford_goldFoilExperiment": {
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          0.010000000000000009,
+          0.5901400000000003,
+          1.0,
+          1
+        ],
+        "Strength": 32.743
+      }
+    },
+    "material_name": "emissionBase"
+  },
+  "ancientRome": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "BaseColor": [
+          0.751715708,
+          0.842,
+          0.667706,
+          1
+        ],
+        "Roughness": 0.426,
+        "Specular": 0.318
+      }
+    },
+    "material_name": "paint"
+  },
+  "background_01": {
+    "material_metadata": {
+      "utils_change_colorramp": {
+        "colorRamp_value_ls": [
+          [
+            0.65,
+            0.49985,
+            0.6178679000000001,
+            1
+          ],
+          [
+            0.5469464,
+            0.5096,
+            0.65,
+            1
+          ]
+        ]
+      }
+    },
+    "material_name": "background"
+  },
+  "baekland_symbolPlastic": {
+    "material_metadata": null,
+    "material_name": "faceEyes"
+  },
+  "basebody": {},
+  "biingdu.004": {
+    "material_metadata": {
+      "utils_change_colorramp": {
+        "colorRamp_value_ls": [
+          [
+            0.5508298799999995,
+            0.09211,
+            0.755,
+            1
+          ],
+          [
+            0.0071520000000000064,
+            0.894,
+            0.24482726400000018,
+            1
+          ],
+          [
+            0.426,
+            0.368064,
+            0.41812070400000007,
+            1
+          ]
+        ]
+      },
+      "utils_change_layerWeight": {
+        "LayerWeight_value": 0.697
+      }
+    },
+    "material_name": "crystal"
+  },
+  "body": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "SubsurfaceColor": [
+          1.0,
+          0.32499999999999996,
+          0.32499999999999996,
+          1
+        ]
+      }
+    },
+    "material_name": "skin"
+  },
+  "chosen objects": [
+    "background_01",
+    "basebody",
+    "maxplanc_quantum",
+    "ancientRome",
+    "baekland_symbolPlastic",
+    "Rutherford_goldFoilExperiment",
+    "fleming_penicillinDish"
+  ],
+  "code": "008143324",
+  "cover": {
+    "material_metadata": null,
+    "material_name": "glassTransparent"
+  },
+  "eyes": {
+    "material_metadata": null,
+    "material_name": "faceEyes"
+  },
+  "face.001": {
+    "material_metadata": {
+      "utils_change_PrincipledBSDF": {
+        "SubsurfaceColor": [
+          1.0,
+          0.31499999999999995,
+          0.31499999999999995,
+          1
+        ]
+      }
+    },
+    "material_name": "skin"
+  },
+  "facecheek": {
+    "material_metadata": null,
+    "material_name": "faceMouse"
+  },
+  "fleming_penicillinDish": [
+    {
+      "material_metadata": {
+        "utils_change_colorramp": {
+          "colorRamp_value_ls": [
+            [
+              0.652,
+              0.556808,
+              0.6264885440000001,
+              1
+            ],
+            [
+              0.639564252,
+              0.637506,
+              0.642,
+              1
+            ],
+            [
+              0.507,
+              0.13536900000000002,
+              0.4185518220000002,
+              1
+            ]
+          ]
+        },
+        "utils_change_layerWeight": {
+          "LayerWeight_value": 0.406
+        }
+      },
+      "material_name": "crystal"
+    },
+    {
+      "material_metadata": {
+        "utils_change_PrincipledBSDF": {
+          "BaseColor": [
+            0.13693999999999998,
+            0.20916416000000004,
+            0.668,
+            1
+          ],
+          "Specular": 0.674
+        }
+      },
+      "material_name": "glossy"
+    }
+  ],
+  "maxplanc_quantum": {
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          0.5647999999999996,
+          0.15000000000000002,
+          1.0,
+          1
+        ],
+        "Strength": 40.631
+      }
+    },
+    "material_name": "emissionWeight"
+  },
+  "metaball_metadata": {
+    "conf": {
+      "ball_scale_mean": 0.34,
+      "ball_scale_scale": 0.02,
+      "count": 40,
+      "curve_scale_mean": 1.1,
+      "curve_scale_scale": 0.25,
+      "damping": 0.5,
+      "emitter_scale": 1,
+      "init_speed": 0.5,
+      "lifetime": 50,
+      "lifetime_random": 0.6,
+      "loft_radius": 0.01,
+      "mat_setting": {
+        "name": "particles_BSDF",
+        "senta_constant": 0.1,
+        "type": "RANDOM",
+        "values": [
+          [
+            "(1",
+            0.8,
+            0.1,
+            "1)",
+            "(0.2",
+            0.8,
+            0.1,
+            "1)",
+            "(0.5",
+            0.8,
+            0.1,
+            "1)"
+          ]
+        ]
+      },
+      "metaball_num_mean": 2.5,
+      "metaball_num_scale": 1,
+      "metaball_type": "BALL",
+      "normal_factor": 0.9,
+      "one_ronund_frame_high": 160,
+      "one_ronund_frame_low": 50,
+      "particle_size": 0.25,
+      "render_resolution": 0.025,
+      "size_random": 0.7
+    },
+    "metadata": {
+      "0": {
+        "ball_scale": [
+          0.35,
+          0.35,
+          0.35
+        ],
+        "curve_scale": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "one_round_frames": 73
+      },
+      "1": {
+        "ball_scale": [
+          0.32,
+          0.32,
+          0.32
+        ],
+        "curve_scale": [
+          0.71,
+          0.71,
+          0.71
+        ],
+        "one_round_frames": 159
+      },
+      "2": {
+        "ball_scale": [
+          0.34,
+          0.34,
+          0.34
+        ],
+        "curve_scale": [
+          0.58,
+          0.58,
+          0.58
+        ],
+        "one_round_frames": 102
+      },
+      "3": {
+        "ball_scale": [
+          0.36,
+          0.36,
+          0.36
+        ],
+        "curve_scale": [
+          1.33,
+          1.33,
+          1.33
+        ],
+        "one_round_frames": 142
+      }
+    }
+  },
+  "mouse": {
+    "material_metadata": null,
+    "material_name": "faceMouse"
+  },
+  "time": "Tue Mar  1 17:55:49 2022",
+  "圆环.018": {
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          1.0,
+          0.15000000000000002,
+          0.8793000000000004,
+          1
+        ],
+        "Strength": 10.6
+      }
+    },
+    "material_name": "emissionWeight"
+  },
+  "柱体.099": {
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          1.0,
+          0.5529,
+          0.15000000000000002,
+          1
+        ],
+        "Strength": 31.202
+      }
+    },
+    "material_name": "emissionWeight"
+  },
+  "柱体.100": {
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          0.3709999999999999,
+          0.15000000000000002,
+          1.0,
+          1
+        ],
+        "Strength": 14.098
+      }
+    },
+    "material_name": "emissionWeight"
+  },
+  "球体.012": {
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          0.35060000000000024,
+          1.0,
+          0.15000000000000002,
+          1
+        ],
+        "Strength": 26.731
+      }
+    },
+    "material_name": "emissionWeight"
+  },
+  "球体.013": {
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          0.15000000000000002,
+          1.0,
+          0.2196999999999999,
+          1
+        ],
+        "Strength": 18.421
+      }
+    },
+    "material_name": "emissionWeight"
+  },
+  "球体.014": {
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          1.0,
+          0.15000000000000002,
+          0.7110000000000001,
+          1
+        ],
+        "Strength": 7.854
+      }
+    },
+    "material_name": "emissionWeight"
+  },
+  "球体.015": {
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          0.15000000000000002,
+          1.0,
+          0.7144000000000001,
+          1
+        ],
+        "Strength": 15.722
+      }
+    },
+    "material_name": "emissionWeight"
+  },
+  "贝塞尔圆.008": {
+    "material_metadata": {
+      "utils_change_emission": {
+        "Color": [
+          1.0,
+          0.6634,
+          0.010000000000000009,
+          1
+        ],
+        "Strength": 40.622
+      }
+    },
+    "material_name": "emissionBase"
+  },
+  "贝塞尔圆.009": {
+    "material_metadata": {
+      "utils_change_GlossyBSDF": {
+        "Roughness": 0.467
+      },
+      "utils_change_PrincipledBSDF": {
+        "Roughness": 0.88,
+        "Specular": 0.457,
+        "SubsurfaceColor": [
+          0.7807039999999998,
+          0.02100000000000002,
+          1.0,
+          1
+        ]
+      },
+      "utils_change_noiseTexture": {
+        "Roughness": 0.238,
+        "Scale": 1.663
+      }
+    },
+    "material_name": "colorfulHue"
+  }
+}
